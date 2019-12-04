@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/simplePagination.css">
+    <link type="text/css" rel="stylesheet" href="" />
+  </head>
+  <body>
+    <form id="form">
+      <p>Введите название фильма</p>
+      <input type="text" name="filmName" id="titleFilm" />
+      <p>Выберите тип фильма</p>
+      <select name="type" id="typeFilm">
+        <option value="movie">movie</option>
+        <option value="series">series</option>
+        <option value="episode">episode</option>
+      </select>
+      <button>Отправить</button>
+    </form>
+    <div id="filmPlaceholder"></div>
+    <div id="paginationPlaceholder"></div>
+    <div id="info"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/jquery.simplePagination.js"></script>
+    <script src="./js/ajax.js"></script>
+  </body>
+</html>
+
